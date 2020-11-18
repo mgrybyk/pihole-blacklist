@@ -5,11 +5,6 @@ adbetnet.com
 videoroll.net
 vak345.com
 rtb.beroll.ru
-.*\.adlook.me
-.*\.marketplacepro\.ru
-.*\.doubleclick\.net
-.*\.domru\.ru
-.*\.advarkads\.com
 (\.|^)adlook\.me$
 (\.|^)republer\.com$
 (\.|^)buzzoola\.com$
@@ -18,7 +13,10 @@ rtb.beroll.ru
 (\.|^)sape\.ru$
 (\.|^)acint\.net$
 (\.|^)appmetrica\.yandex\.net$
+(\.|^)adlook\.me$
+(\.|^)marketplacepro\.ru$
+(\.|^)doubleclick\.net$
+(\.|^)domru\.ru$
+(\.|^)advarkads\.com$
 srepubler.com
 5hz.org
-invalid.parrotdns.com
-ip.parrotdns.com
