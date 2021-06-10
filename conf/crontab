@@ -1,0 +1,4 @@
+0 */9 * * * /home/wi/toTelegram.sh "TLS_Pinset" "/home/wi/check-pinset.sh"
+0 */8 * * * /home/wi/toTelegram.sh "LifeNumber" "node /home/wi/life-number/check-number.js"
+30 14 * * FRI /home/wi/toTelegram.sh "LifeNumber" "node /home/wi/life-number/check-number.js" force
+30 14 * * FRI /home/wi/toTelegram.sh "TLS_Pinset" "/home/wi/check-pinset.sh" force
