@@ -18,12 +18,12 @@ fi;
 res="$($cmd)"
 status="$(echo "$res" | head -n 1)"
 
-BOT_API_KEY="1880642064:AAFY8ytvcav_rGA2fonAS2tTw4nnCsdRuPs"
+BOT_API_KEY="..."
 CHAT_ID="-1001453778356"
 
 if [ "$status" == "OK" ] && [ "$force" != "force" ]; then
         echo OK;
 else
         echo "sending message to Telegram"
-        #curl -X POST "https://api.telegram.org/bot$BOT_API_KEY/sendMessage" -d "chat_id=$CHAT_ID&parse_mode=markdown&text=*$cmd_name*%0A$res";
+        curl -X POST "https://api.telegram.org/bot$BOT_API_KEY/sendMessage" -d "chat_id=$CHAT_ID&parse_mode=markdown&text=*$cmd_name*%0A$res";
 fi
